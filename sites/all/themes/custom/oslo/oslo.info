@@ -1,0 +1,37 @@
+name = oslo
+description = 657Oslo site template
+core = 7.x
+
+stylesheets[all][] = CSS/style.CSS
+stylesheets[all][] = CSS/bootstrap.min.css
+stylesheets[all][] = CSS/font-awesome.min.css
+stylesheets[all][] = CSS/font-awesome.css
+
+regions[user_menu]      = User Menu
+regions[main_menu]      = Main Menu
+regions[carousel]       = Carousel
+regions[up_coming]      = Up Coming
+regions[learn]          = Learn
+regions[mix]            = Mix
+regions[content]        = Content
+regions[share_image]    = Share Image
+regions[share_link]     = Share Link
+regions[join_image]     = Join Image
+regions[join_link]      = Join L ink
+
+regions[recent_events_large]        = Recent Events Large
+regions[recent_two_image]           = Recent Two Image
+regions[recent_two_text]            = Recent Two Text
+regions[recent_small_one_image]     = Recent Small One Image
+regions[recent_small_one_text]      = Recent Small One Text
+regions[recent_small_two_image]     = Recent Small Two Image
+regions[recent_small_two_text]      = Recent Small Two Text
+regions[recent_small_three_image]   = Recent Small Three Image
+regions[recent_small_three_text]    = Recent Small Three Text
+
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer_fourthcolumn] = Footer fourth column
+regions[footer_fifthcolumn] = Footer fifth column
+regions[footer]         = footer
