@@ -7,11 +7,15 @@ html, body{
     height: 100%;
 }
 
+.no-padding{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 .wrapper {
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -4em;
 }
 
 .panel_footer{
@@ -116,24 +120,16 @@ html, body{
 }
 
 .region-share-image .block {
-    margin-left: -17px;
-    margin-right: -17px;
 }
 
 .region-learn .block {
-    margin-left: -17px;
-    margin-right: -34px;
 }
 
 .region-mix .block{
     background-color: #000000;
-    margin-left: -17px;
-    margin-right: -17px;
 }
 
 .region-share-link .block {
-    margin-left: -17px;
-    margin-right: -17px;
     line-height: 300px;
     text-align: center;
     /*top: 50%;*/
@@ -150,44 +146,26 @@ html, body{
 }
 
 .region {
-    padding: 0px !important;
 }
 
 .region-join-image{
-    background-image: url('../images/furious6.jpg');
-    height: 300px;
-    width: 700px;
-    background-repeat: no-repeat;
 }
 
 .region-join-image .block{
-    margin-left: -17px;
-    margin-right: -17px;
 }
 
-#small_last_image {
-    background: url(../images/light.jpg) repeat #ffb38b;
-}
+/** Large Event Styles **/
 
-.region-recent-small-three-image {
-    background: url(../images/light.jpg) repeat #ffb38b;
-}
-
-
-.event {
-    background-color: #d3d3d3 !important;
-}
-
-.event-image-large{
-    margin-left: -25px !important;
-    z-index: 50;
+.event-title{
+    margin-top: 30px;
 }
 
 .event-description {
     color: black;
     font-size: medium;
     position: absolute;
-    margin-top: 30px !important;
+    margin-top: 20px !important;
+    padding-right: 20px;
 }
 
 .event-author{
@@ -196,25 +174,58 @@ html, body{
 }
 
 .event-date {
-    color: white;
-    position: relative;
-    top: -200px;
-    left: -700px;
-    z-index: 100;
+    margin-top: 20px;
+    margin-left: 25px;
 }
 
 .event-time{
-    color: white;
-    position: relative;
-    z-index: 100;
+    margin-top: 20px;
+}
+
+.event-image-large{
+    margin: 0 !important;
 }
 
 .region-recent-events-large{
-    margin-left: -35px !important;
-    margin-right: -35px !important;
     background-color: #d3d3d3 !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
-.region-recent-events-large .recent-events{
-    padding: 0px !important;
+.large-event{
+    padding: 0 !important;
+    margin: 0 !important;
 }
+
+
+.large-event:nth-child(even){
+    background-color: white;
+}
+
+/* Large Event Styles Ends */
+
+
+/* Small Event Styles */
+
+.event-small-title{
+    margin-top: 2% !important;
+    margin-left: 30px !important;
+}
+
+.event-small-author{
+    margin-left: 30px !important;
+}
+
+.region-recent-events-small{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.recent-events-small{
+}
+
+.small-event:nth-child(even){
+    background-color: white;
+}
+
+/* Small Events Styles End */

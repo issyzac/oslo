@@ -41,3 +41,14 @@ function oslo_process_page(&$vars)
         }
     }
 }
+
+/**
+ * Override or insert variables into the node template.
+ */
+
+function oslo_preprocess_node(&$variables) {
+    $node  = $variables['node'];
+    if ( ! empty($node) ) {
+        $variables['template_files'][] = "node-" . $node->nid;
+    }
+}

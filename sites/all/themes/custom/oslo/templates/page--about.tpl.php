@@ -39,44 +39,48 @@
         </div>
     <?php endif; ?>
 
-    <div class="up_comming col-lg-2 pull-left" style="height: 600px; background-color: white">
+    <div class="row col-lg-12">
+
+    <div class="no-padding up_comming col-lg-2 pull-left" style="height: 600px; background-color: white">
         <?php print render($page['up_coming']) ?>
     </div>
 
-    <div class="col-lg-5 learn" style="height: 300px; background-color: #f5f5f5">
+    <div class="no-padding col-lg-5 learn" style="height: 300px; background-color: #f5f5f5">
         <?php  print render($page['learn']); ?>
     </div>
 
-    <div class="col-lg-5 mix" style="height: 300px; background-color: darkgray; padding-left: -20px">
+    <div class="no-padding col-lg-5 mix" style="height: 300px; background-color: darkgray">
         <?php print render($page['mix']) ?>
     </div>
 
-    <div class="col-lg-5 share_image" style="height: 300px; background-color: orangered">
+    <div class="no-padding col-lg-5 share_image" style="height: 300px; background-color: orangered">
         <?php print render($page['share_image']) ?>
     </div>
 
-    <div class="col-lg-5 share_link" style="height: 300px; background-color: #000000">
+    <div class="no-padding col-lg-5 share_link" style="height: 300px; background-color: #000000">
         <?php print render($page['share_link']) ?>
     </div>
 
-    <div class="col-lg-7 join_image" style="height: 300px; background-color: rosybrown;">
+    <div class="no-padding col-lg-7 join_image" style="height: 300px; background-color: rosybrown;">
         <?php print render($page['join_image']) ?>
     </div>
 
-    <div class="col-lg-5 join_link" style="background-color: #f5f5f5; height: 300px">
+    <div class="no-padding col-lg-5 join_link" style="background-color: #f5f5f5; height: 300px">
         <?php print render($page['join_link']) ?>
     </div>
 
+    </div>
+
     <div class="" style="margin-top: 20px !important;">
-        <p style="font-size: 36px; margin-left: 30px; margin-bottom: 10px"><b> Kommende eventer </b></p>
+        <p style="font-size: 36px; margin-left: 30px; margin-bottom: 10px"> Kommende eventer </p>
     </div>
 
     <!-- ######################### LARGE EVENTS ##################################-->
 
     <!-- Recent Large First Event -->
-    <div class="col-lg-12 recent-events">
+    <div class="row no-padding recent-events">
         <!--  The First Recent Event Image  -->
-        <div class="col-lg-12 join_image" style=" background-color: #d3d3d3;">
+        <div class="col-lg-12 join_image no-padding" style=" background-color: #d3d3d3;">
             <?php print render($page['recent_events_large']) ?>
         </div>
 
@@ -84,42 +88,10 @@
     <!-- ######################### SMALL EVENTS ##################################-->
 
     <!-- Small Events First -->
-    <div class="col-lg-12" style="padding: 0px">
+    <div class="row no-padding" style="background-color: white" >
         <!--  The First Small Recent Event Image  -->
-        <div class="col-lg-2 join_image" style="height: 200px; background-color: rosybrown;">
-            <?php print render($page['recent_one_image']) ?>
-        </div>
-
-        <!--  The First Small Recent Event Text  -->
-        <div class="col-lg-10 join_link" style="background-color: #f5f5f5; height: 200px">
-            <?php print render($page['recent_one_text']) ?>
-        </div>
-    </div>
-
-    <!--  Small Events Second  -->
-    <div class="col-lg-12" style="padding: 0px">
-        <!--  The Second Small Recent Event Image  -->
-        <div class="col-lg-2 join_image" style="height: 200px; background-color: #0d3349;">
-            <?php print render($page['recent_two_image']) ?>
-        </div>
-
-        <!--  The Second Small Recent Event Text  -->
-        <div class="col-lg-10 join_link" style="background-color: #FFFFFF; height: 200px">
-            <?php print render($page['recent_two_text']) ?>
-        </div>
-    </div>
-
-    <!--  Small Events Third  -->
-    <div class="col-lg-12" style="padding: 0px">
-
-        <!--  The Third Small Recent Event Image  -->
-        <div id="small_last_image" class="col-lg-2 join_image" style="height: 200px; background-color: rosybrown;">
-            <?php print render($page['recent_two_image']) ?>
-        </div>
-
-        <!--  The Third Small Recent Event Text  -->
-        <div class="col-lg-10 join_link" style="background-color: #f5f5f5; height: 200px">
-            <?php print render($page['recent_two_text']) ?>
+        <div class="col-lg-12 recent-events-small no-padding" style="background-color: #d3d3d3;">
+            <?php print render($page['recent_events_small']) ?>
         </div>
 
     </div>

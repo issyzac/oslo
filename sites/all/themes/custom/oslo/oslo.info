@@ -20,7 +20,8 @@ regions[join_image]     = Join Image
 regions[join_link]      = Join L ink
 
 regions[recent_events_large]        = Recent Events Large
-regions[recent_two_image]           = Recent Two Image
+regions[recent_events_small]        = Recent Events Small
+
 regions[recent_two_text]            = Recent Two Text
 regions[recent_small_one_image]     = Recent Small One Image
 regions[recent_small_one_text]      = Recent Small One Text

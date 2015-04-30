@@ -10,7 +10,6 @@
 
     <?php print $user_picture; ?>
 
-
     <?php if ($display_submitted): ?>
         <div class="submitted">
             <?php print $submitted; ?>
@@ -20,7 +19,6 @@
     <div class="content">
         <?php
             print render($content);
-//        echo "Contents Goes Here ...";
         ?>
     </div>
 
